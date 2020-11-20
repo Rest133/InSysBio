@@ -1,8 +1,8 @@
+@charset "UTF-8";
 @font-face {
   src: url("/assets/fonts/Museo_Sans_Cyrl.ttf");
   font-family: MuseoSansCyrl, sans-serif;
 }
-
 *, *:before, *:after {
   padding: 0;
   margin: 0;
@@ -13,8 +13,8 @@
 html, body {
   height: 100%;
   background: #ffffff;
-  min-height: 100vh; /*Чтобы прилипал футер к низу страницы*/
-
+  min-height: 100vh;
+  /*Чтобы прилипал футер к низу страницы*/
   font-family: MuseoSansCyrl, sans-serif;
   font-weight: normal;
 }
@@ -23,8 +23,6 @@ html, body {
   display: flex;
   flex-flow: column nowrap;
   max-width: 1920px;
-  //margin: 0 auto 0;
-
   height: 5920px;
   background: url("/assets/img/bg-full.png");
 }
@@ -40,7 +38,6 @@ html, body {
 .header-menu-container {
   display: flex;
   flex-flow: row nowrap;
-
   justify-content: space-between;
 }
 
@@ -55,7 +52,6 @@ html, body {
   display: flex;
   flex-flow: row nowrap;
   margin: 2px 0 0 464px;
-
   align-items: center;
 }
 
@@ -63,7 +59,6 @@ html, body {
   display: flex;
   flex-flow: row;
   margin: 0 23px 0 34px;
-
   align-self: center;
   background: none;
 }
@@ -86,20 +81,16 @@ html, body {
 .header-menu-item_link {
   display: flex;
   flex-flow: row nowrap;
-
   font-style: normal;
   font-weight: lighter;
   font-size: 18px;
   line-height: 22px;
   /* identical to box height */
-
   color: #FFFFFF;
-
   text-decoration: none;
-
-  &:hover{
-    opacity: 70%;
-  }
+}
+.header-menu-item_link:hover {
+  opacity: 70%;
 }
 
 .header-menu-item_link__social {
@@ -115,10 +106,8 @@ html, body {
   font-size: 18px;
   line-height: 22px;
   /* identical to box height */
-
   color: #FFFFFF;
   text-decoration: none;
-
   align-self: center;
 }
 
@@ -136,7 +125,6 @@ html, body {
   flex-flow: row nowrap;
   width: 100%;
   margin: 13px 0 0 -45px;
-
   align-items: center;
 }
 
@@ -146,34 +134,31 @@ html, body {
   margin: 0 0 0 -4px;
   height: 28px;
   min-width: 195px;
-
   align-items: center;
-
   background: #FFFFFF;
   border-radius: 30px;
 }
 
-.search-button{
+.search-button {
   margin: 5px 0px 3px 13px;
   background: none;
 }
 
-.search-input{
+.search-input {
   display: flex;
   flex-flow: column nowrap;
   width: 81%;
   padding: 0 0 0 17px;
-
   font-family: Museo Sans Cyrl;
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
   line-height: 17px;
-
   color: #7D7D7D;
-
-  &:focus{
-    background: none;
-    outline: none;
-  }
 }
+.search-input:focus {
+  background: none;
+  outline: none;
+}
+
+/*# sourceMappingURL=header.css.map */

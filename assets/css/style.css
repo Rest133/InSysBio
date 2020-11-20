@@ -1,4 +1,165 @@
-@import "header";
+@charset "UTF-8";
+@font-face {
+  src: url("/assets/fonts/Museo_Sans_Cyrl.ttf");
+  font-family: MuseoSansCyrl, sans-serif;
+}
+*, *:before, *:after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  background: #ffffff;
+  min-height: 100vh;
+  /*Чтобы прилипал футер к низу страницы*/
+  font-family: MuseoSansCyrl, sans-serif;
+  font-weight: normal;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  max-width: 1920px;
+  height: 5920px;
+  background: url("/assets/img/bg-full.png");
+}
+
+.header {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 1388px;
+  height: 86px;
+  margin: 86px 274px 215px 258px;
+}
+
+.header-menu-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.header-menu {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 0 0 0 230px;
+  width: 1400px;
+}
+
+.header-menu-top {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 2px 0 0 464px;
+  align-items: center;
+}
+
+.change-language-button {
+  display: flex;
+  flex-flow: row;
+  margin: 0 23px 0 34px;
+  align-self: center;
+  background: none;
+}
+
+.change-language-button__text {
+  font-style: normal;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  color: #CDCDCD;
+}
+
+.change-language-button__text-bold {
+  margin: 0 -5px 0 0;
+  font-family: "MuseoSansCyrl Bold", sans-serif;
+  color: #ffffff;
+}
+
+.header-menu-item_link {
+  display: flex;
+  flex-flow: row nowrap;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.header-menu-item_link:hover {
+  opacity: 70%;
+}
+
+.header-menu-item_link__social {
+  margin: 2px 7px 0;
+  justify-self: center;
+}
+
+.header-menu-top_link__phone {
+  margin: 6px 0 0 4px;
+  font-family: Museo Sans Cyrl, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  color: #FFFFFF;
+  text-decoration: none;
+  align-self: center;
+}
+
+.header-menu-item_link__bottom {
+  margin: 0 17px 0 0;
+  white-space: nowrap;
+}
+
+.header-menu-item_image {
+  align-self: center;
+}
+
+.header-menu-bottom {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  margin: 13px 0 0 -45px;
+  align-items: center;
+}
+
+.search-form {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 0 0 0 -4px;
+  height: 28px;
+  min-width: 195px;
+  align-items: center;
+  background: #FFFFFF;
+  border-radius: 30px;
+}
+
+.search-button {
+  margin: 5px 0px 3px 13px;
+  background: none;
+}
+
+.search-input {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 81%;
+  padding: 0 0 0 17px;
+  font-family: Museo Sans Cyrl;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #7D7D7D;
+}
+.search-input:focus {
+  background: none;
+  outline: none;
+}
 
 .content {
   display: flex;
@@ -20,7 +181,6 @@
   font-weight: 600;
   font-size: 72px;
   line-height: 86px;
-
   color: #000000;
 }
 
@@ -30,7 +190,6 @@
   font-size: 24px;
   line-height: 40px;
   /* or 167% */
-
   color: #000000;
 }
 
@@ -39,7 +198,6 @@
   flex-flow: row nowrap;
   margin: 108px 0 0 0;
   padding: 0 67px 0 0;
-
   justify-content: space-between;
 }
 
@@ -48,19 +206,14 @@
   flex-flow: column nowrap;
   width: 230px;
   height: 70px;
-
   align-items: center;
   justify-content: center;
-
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
   line-height: 40px;
   /* or 167% */
-
-
   color: #FFFFFF;
-
   background: #80C342;
   box-shadow: 10px 10px 30px #CDCDCD;
   border-radius: 30px;
@@ -72,11 +225,8 @@
   font-size: 24px;
   line-height: 27px;
   /* or 112% */
-
   text-align: center;
-
   color: #000000;
-
   border: 3px solid #80C342;
   box-sizing: border-box;
   background: #FFFFFF;
@@ -86,7 +236,7 @@
 .content-mission {
   display: flex;
   flex-flow: column nowrap;
-  margin: 244px 0 0 595+76px;
+  margin: 244px 0 0 671px;
   width: 580px;
   height: 247px;
 }
@@ -105,9 +255,7 @@
   font-size: 36px;
   line-height: 40px;
   /* identical to box height, or 111% */
-
   text-align: center;
-
   color: #000000;
 }
 
@@ -168,7 +316,6 @@
   width: 575px;
   height: 518px;
   padding: 50px 80px 30px;
-
   background: #80C342;
   box-shadow: 0px 12px 24px rgba(44, 39, 56, 0.02), 0px 32px 64px rgba(44, 39, 56, 0.04);
   border-radius: 24px;
@@ -180,7 +327,6 @@
   font-weight: 600;
   font-size: 36px;
   line-height: 43px;
-
   color: #FFFFFF;
 }
 
@@ -191,8 +337,6 @@
   font-size: 24px;
   line-height: 29px;
   /* identical to box height */
-
-
   color: #FFFFFF;
 }
 
@@ -200,7 +344,6 @@
   width: 390px;
   height: 50px;
   margin: 0 0 31px 0;
-
   background: #FFFFFF;
   border-radius: 30px;
 }
@@ -212,7 +355,6 @@
   font-size: 24px;
   line-height: 29px;
   /* identical to box height */
-
   color: #FFFFFF;
 }
 
@@ -220,7 +362,6 @@
   height: 95px;
   width: 390px;
   margin: 0 0 28px 0;
-
   background: #FFFFFF;
   border-radius: 30px;
 }
@@ -229,23 +370,17 @@
   width: 230px;
   height: 70px;
   margin: 0 0 0 -28px;
-
   align-self: center;
-
   background: #862D91;
   box-shadow: 0px 2px 4px rgba(44, 39, 56, 0.08), 0px 4px 8px rgba(44, 39, 56, 0.08);
   border-radius: 30px;
-
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
   line-height: 29px;
   /* identical to box height */
-
   text-align: center;
-
   color: #EBF4F8;
-
 }
 
 .content-contacts_right-block {
@@ -258,27 +393,25 @@
   margin: 115px 0 34px 0;
 }
 
-.contacts-text{
+.contacts-text {
   font-style: normal;
   font-weight: 300;
   font-size: 24px;
   line-height: 40px;
   /* or 167% */
-
   color: #000000;
 }
 
-.contacts-text_underline{
+.contacts-text_underline {
   display: flex;
   flex-flow: row nowrap;
-  margin: 27px 0 0 0 ;
+  margin: 27px 0 0 0;
   width: 489px;
-
   text-decoration: underline;
 }
 
-.contacts-map{
+.contacts-map {
   align-self: flex-start;
 }
 
-@import "footer";
+/*# sourceMappingURL=style.css.map */
