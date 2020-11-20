@@ -1,10 +1,8 @@
 "use strict"
 
+
 window.addEventListener("DOMContentLoaded", () => {
     const buttons = document.querySelectorAll(".content_button");
-    buttons.forEach(btn => {
-        console.log(btn);
-    })
 
     buttons.forEach(btn => {
         btn.addEventListener("mouseover", event => {
@@ -16,4 +14,15 @@ window.addEventListener("DOMContentLoaded", () => {
             target.classList.toggle('content_button__white');
         })
     })
+
+    const animationBlock = document.querySelector('.content-animation-block');
+
+    animationBlock.addEventListener('click', (event) => {
+        const target = event.target;
+
+        if (target && target.classList.contains('animation-title')) {
+            target.nextElementSibling.classList.toggle('animation-text__hidden');
+        }
+    })
+
 })

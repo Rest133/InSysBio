@@ -124,19 +124,130 @@
   flex-flow: column nowrap;
   margin: 115px 0 0 74px;
   width: 1158px;
-  height: 370px;
+}
+
+.content-animation-block {
+  display: flex;
+  flex-flow: column;
+  width: 1133px;
+  height: 240px;
+}
+
+.animation-block_row {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  margin: 0 0 100px 0;
+
+  justify-content: space-around;
+}
+
+.animation-block {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+}
+
+.animation-title {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 70px;
+  padding: 0 0 0 30px;
+
+  align-items: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 40px;
+  /* identical to box height, or 167% */
+
+  background: url("/assets/img/2.content/animation-ellipse.svg") no-repeat left;
+  background-size: auto;
+
+  color: #000000;
+
+  &:hover {
+    opacity: 70%;
+  }
+}
+
+.animation-text {
+  padding: 0 0 0 30px;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 20px;
+  /* or 111% */
+
+
+  color: #000000;
+}
+
+.animation-text__hidden {
+  display: none;
 }
 
 .content-cases {
   display: flex;
-  flex-flow: row nowrap;
-  margin: 100px 0 0 76px;
+  flex-flow: column nowrap;
+  margin: 190px 0 0 0;
   width: 1366px;
   height: 756px;
 }
 
 .content-title__right {
-  margin: 0 0 0 595px;
+  margin: 0 0 0 671px;
+}
+
+.slider {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 80px 0 0 0;
+
+  justify-content: space-between;
+}
+
+.slider-case {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 625px;
+  height: 525px;
+  padding: 40px;
+  position: relative;
+
+
+  background: url("/assets/img/2.content/case-bg1.svg") no-repeat;
+  color: #FFFFFF;
+}
+
+.slider-case_title {
+  margin: 0 0 40px 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: left;
+  /* or 111% */
+}
+
+.slider-case_text {
+  margin: 0 0 10px 0;
+
+  font-family: Museo Sans Cyrl;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.content_button__slider-button {
+  position: absolute;
+  bottom: 5%;
+  align-self: center;
+
+  box-shadow: 10px 10px 30px #4A1950;
 }
 
 .content-expertise {
@@ -258,7 +369,7 @@
   margin: 115px 0 34px 0;
 }
 
-.contacts-text{
+.contacts-text {
   font-style: normal;
   font-weight: 300;
   font-size: 24px;
@@ -268,16 +379,16 @@
   color: #000000;
 }
 
-.contacts-text_underline{
+.contacts-text_underline {
   display: flex;
   flex-flow: row nowrap;
-  margin: 27px 0 0 0 ;
+  margin: 27px 0 0 0;
   width: 489px;
 
   text-decoration: underline;
 }
 
-.contacts-map{
+.contacts-map {
   align-self: flex-start;
 }
 
