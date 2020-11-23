@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/* Слайдер */
+/* Ограничевающая оболочка */
+.slick-list {
+  overflow: hidden;
+}
+
+/* Лента слайдов */
+.slick-track {
+  display: flex;
+}
+
+/* Слайд */
+.slick-slide {
+  outline: none;
+}
+
+/* Слайд активный */
+/* Слайд основной */
+/* Слайд по центру */
+/* Стрелка */
+/* Стрелка влево */
+/* Стрелка вправо */
+/* Стрелка не активная */
+/* Точки*/
+.slick-dots {
+  display: flex;
+  align-self: center;
+  margin: 67px 0 0 315px;
+}
+
+.news-slider .slick-dots {
+  display: flex;
+  align-self: center;
+  margin: -50px 0 0 0;
+  z-index: 20;
+}
+
+.slick-dots li {
+  margin: 0 22px 0 0;
+  list-style: none;
+  font-size: 0;
+  width: 20px;
+  height: 20px;
+  background: #FFFFFF;
+  border: 1px solid #8E3298;
+  border-radius: 50%;
+}
+
+.news-slider .slick-dots li {
+  background: #8E3298;
+  border: 3px solid #80C342;
+  border-radius: 50%;
+}
+
+.slick-dots .slick-active {
+  background: #8E3298;
+  border-radius: 50%;
+}
+
+.news-slider .slick-dots .slick-active {
+  background: #80C342;
+  border: 3px solid #80C342;
+  border-radius: 50%;
+}
+
+/* Конкретный слайдер*/
+.slider {
+  display: flex;
+  flex-flow: column nowrap;
+  min-width: 0;
+  margin: 80px 0 0 0;
+}
+
+/*# sourceMappingURL=slider.css.map */
