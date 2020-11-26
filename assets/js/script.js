@@ -27,11 +27,20 @@ window.addEventListener("DOMContentLoaded", () => {
 
     const menuBurger = document.querySelector('.burger-menu');
 
-    document.querySelector('.header-menu_burger').addEventListener(event => {
+    function toggleBodyOverflow() {
+        if (document.body.style.overflow === 'hidden') {
+            document.body.style.overflow = ''
+        } else {
+            document.body.style.overflow = 'hidden';
+        }
+    }
+
+    document.querySelector('.header').addEventListener('click', event => {
         const target = event.target;
 
         if (target && target.classList.contains('header-menu_burger')) {
-            menuBurger.classList.toggle('hide');
+            menuBurger.classList.toggle('active');
+            toggleBodyOverflow()
         }
     })
 

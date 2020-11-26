@@ -60,6 +60,10 @@
   display: flex;
   align-self: center;
   margin: 67px 0 0 315px;
+
+  @media (max-width: 767px) {
+    margin: 5% 0 0 20%;
+  }
 }
 
 .news-slider .slick-dots {
@@ -78,6 +82,12 @@
   background: #FFFFFF;
   border: 1px solid #8E3298;
   border-radius: 50%;
+
+  @media (max-width: 425px) {
+    width: 5px;
+    height: 5px;
+    margin: 0 6px 0 0;
+  }
 }
 
 .news-slider .slick-dots li {
@@ -109,6 +119,7 @@
   min-width: 0;
   margin: 80px 0 0 0;
 
-  @media (max-width: 1919px) {
+  @media (max-width: 767px) {
+    margin: 5% 0 0 0;
   }
 }
