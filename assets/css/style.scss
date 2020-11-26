@@ -417,6 +417,7 @@
 }
 
 .animation-text {
+  margin: 5px 0 0 0;
   padding: 0 0 0 30px;
   font-style: normal;
   font-weight: 200;
@@ -432,7 +433,7 @@
     font-size: 16px;
   }
 
-  @media (max-width: 757px) {
+  @media (max-width: 767px) {
     font-size: 14px;
   }
 }
@@ -1135,7 +1136,7 @@
   margin: 0 0 0 85px;
 
   @media (max-width: 1439px) {
-    margin: 0 0 0 2%;
+    margin: 0 0 0 5%;
   }
   @media (max-width: 1023px) {
     width: 50%;

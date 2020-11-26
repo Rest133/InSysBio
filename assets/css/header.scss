@@ -32,11 +32,17 @@ html, body {
 
   @media (max-width: 1919px) {
     background: url("/assets/img/bg-full_1.png") no-repeat;
+    background-size: contain;
   }
 
   @media (max-width: 1439px) {
     background: url("/assets/img/bg-full_clean.png") no-repeat;
     height: auto;
+    background-size: contain;
+  }
+
+  @media (max-width: 1299px) {
+    background-size: cover;
   }
 
   @media (max-width: 899px) {
@@ -54,12 +60,12 @@ html, body {
   z-index: 2;
 
   @media (max-width: 1919px) {
-    margin: 86px 0 215px;
+    margin: 5% 0 215px;
     width: 100%;
   }
 
   @media (max-width: 1439px) {
-    margin: 7% 0 14%;
+    margin: 5% 0 14%;
     height: 100px;
   }
 
@@ -94,6 +100,10 @@ html, body {
     margin: 0 0 0 13%;
   }
   @media (max-width: 1699px) {
+    margin: 0 0 0 5%;
+  }
+
+  @media (max-width: 1299px) {
     margin: 0 0 0 13%;
   }
 
@@ -114,11 +124,11 @@ html, body {
   display: flex;
   flex-flow: column nowrap;
   margin: 0 0 0 230px;
-  width: 1400px;
+  //width: 1400px;
 
   @media (max-width: 1919px) {
     width: 68%;
-    margin: 0 5% 0 10%;
+    // margin: 0 5% 0 10%;
     justify-self: flex-end;
   }
 
@@ -237,7 +247,7 @@ html, body {
   margin: 6px 0 0 4px;
   font-family: Museo Sans Cyrl, sans-serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 300;
   font-size: 18px;
   line-height: 22px;
   /* identical to box height */
@@ -257,7 +267,7 @@ html, body {
   white-space: nowrap;
 
   @media (max-width: 1919px) {
-    white-space: normal;
+    //white-space: normal;
     text-align: center;
   }
   @media (max-width: 1699px) {
@@ -280,12 +290,16 @@ html, body {
   @media (max-width: 1919px) {
     margin: 13px 0 0 0;
     justify-content: flex-end;
-    flex-flow: wrap;
   }
 
   @media (max-width: 1439px) {
     padding: 0 0 0 20px;
   }
+
+  @media (max-width: 1299px) {
+    flex-flow: wrap;
+  }
+
   @media (max-width: 1023px) {
     padding: 0;
   }
@@ -311,8 +325,8 @@ html, body {
   @media (max-width: 1919px) {
     margin: 0 0 0 -4px;
     padding: 0 5px 0;
-    width: 19%;
-    min-width: 100px;
+    // width: 19%;
+    //min-width: 100px;
   }
 
   @media (max-width: 1699px) {
@@ -321,10 +335,6 @@ html, body {
   }
   @media (max-width: 1439px) {
     width: 45%;
-  }
-
-  @media (max-width: 1023px) {
-    margin: 0;
   }
 
   @media (max-width: 899px) {
