@@ -8,6 +8,10 @@
     background: url("/assets/img/3.footer/footer-bg.svg") no-repeat bottom;
     background-size: cover;
   }
+
+  @media (max-width: 425px) {
+    margin: 53px 0 0 0;
+  }
 }
 
 .footer_nav {

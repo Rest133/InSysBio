@@ -72,6 +72,11 @@
   border: 3px solid #80C342;
   border-radius: 50%;
 }
+@media (max-width: 425px) {
+  .news-slider .slick-dots li {
+    border: 1px solid #80C342;
+  }
+}
 
 .slick-dots .slick-active {
   background: #8E3298;

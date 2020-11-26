@@ -11,6 +11,11 @@
     background-size: cover;
   }
 }
+@media (max-width: 425px) {
+  .footer {
+    margin: 53px 0 0 0;
+  }
+}
 
 .footer_nav {
   display: flex;

@@ -73,6 +73,10 @@ html, body {
     margin: 3% 0 0 0;
   }
 
+  @media (max-width: 575px) {
+    height: 50px;
+  }
+
 }
 
 .header-menu-container {
@@ -92,7 +96,6 @@ html, body {
     height: 50%;
   }
 
-
 }
 
 .header-image-container {
@@ -111,6 +114,11 @@ html, body {
     display: flex;
     margin: 0;
   }
+
+  @media (max-width: 575px) {
+    margin: 0 0 0 24px;
+    width: 87px;
+  }
 }
 
 .logo {
@@ -124,11 +132,9 @@ html, body {
   display: flex;
   flex-flow: column nowrap;
   margin: 0 0 0 230px;
-  //width: 1400px;
 
   @media (max-width: 1919px) {
     width: 68%;
-    // margin: 0 5% 0 10%;
     justify-self: flex-end;
   }
 
@@ -143,6 +149,10 @@ html, body {
   @media (max-width: 899px) {
     width: 100%;
     justify-content: center;
+  }
+
+  @media (max-width: 575px) {
+    max-width: 350px;
   }
 
 }
@@ -267,7 +277,6 @@ html, body {
   white-space: nowrap;
 
   @media (max-width: 1919px) {
-    //white-space: normal;
     text-align: center;
   }
   @media (max-width: 1699px) {
@@ -308,6 +317,11 @@ html, body {
     margin: 0;
     justify-content: center;
   }
+
+  @media (max-width: 575px) {
+    align-content: center;
+    justify-content: flex-end;
+  }
 }
 
 .search-form {
@@ -325,8 +339,6 @@ html, body {
   @media (max-width: 1919px) {
     margin: 0 0 0 -4px;
     padding: 0 5px 0;
-    // width: 19%;
-    //min-width: 100px;
   }
 
   @media (max-width: 1699px) {
@@ -339,6 +351,16 @@ html, body {
 
   @media (max-width: 899px) {
     height: 90%;
+  }
+
+  @media (max-width: 575px) {
+    min-width: 70px;
+    width: 146px;
+    height: 25px;
+  }
+
+  @media (max-width: 425px) {
+   width: 120px;
   }
 }
 
@@ -372,6 +394,11 @@ html, body {
     display: flex;
     flex-flow: column nowrap;
     margin: 0 0 0 15%;
+  }
+
+  @media (max-width: 575px) {
+    align-self: flex-end;
+    margin-left: 10%;
   }
 }
 
