@@ -1,5 +1,11 @@
 @charset "UTF-8";
 /* Слайдер */
+@media (max-width: 1919px) {
+  .slick-slider {
+    width: 100%;
+  }
+}
+
 /* Ограничевающая оболочка */
 .slick-list {
   overflow: hidden;
@@ -8,10 +14,12 @@
 /* Лента слайдов */
 .slick-track {
   display: flex;
+  flex-flow: row nowrap;
 }
 
 /* Слайд */
 .slick-slide {
+  display: flex;
   outline: none;
 }
 

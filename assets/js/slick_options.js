@@ -14,7 +14,7 @@ $(document).ready(function () {
     $('.news-slider').slick({
         arrows: false,
         dots: true,
-        slidesToShow: 2,
+        slidesToShow: 1,
         infinite: false,
         autoplay:false,
         touchThreshold: 20,

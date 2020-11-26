@@ -25,4 +25,14 @@ window.addEventListener("DOMContentLoaded", () => {
         }
     })
 
+    const menuBurger = document.querySelector('.burger-menu');
+
+    document.querySelector('.header-menu_burger').addEventListener(event => {
+        const target = event.target;
+
+        if (target && target.classList.contains('header-menu_burger')) {
+            menuBurger.classList.toggle('hide');
+        }
+    })
+
 })
