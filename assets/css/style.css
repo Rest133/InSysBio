@@ -245,7 +245,7 @@ html, body {
   display: flex;
   flex-flow: row nowrap;
   font-style: normal;
-  font-weight: lighter;
+  font-weight: 300;
   font-size: 18px;
   line-height: 22px;
   /* identical to box height */
@@ -1061,7 +1061,7 @@ html, body {
 }
 @media (max-width: 1023px) {
   .slider-case {
-    width: 38vw;
+    width: 37vw;
   }
 }
 @media (max-width: 767px) {
@@ -2063,6 +2063,20 @@ html, body {
 }
 
 /* Слайдер */
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
 @media (max-width: 1919px) {
   .slick-slider {
     width: 100%;
