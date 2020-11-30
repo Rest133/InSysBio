@@ -710,6 +710,10 @@
 }
 
 .article__research {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+
   width: 100%;
   background: #842C8E;
 }
@@ -808,4 +812,42 @@
 
 .article__services{
   width: 80%;
+}
+
+.shared-documents-block{
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+
+  justify-content: space-between;
+}
+
+.first-block{
+  display: flex;
+  flex-flow: column nowrap;
+  margin-bottom: 50px;
+}
+
+.shared-documents__link{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18.3652px;
+  line-height: 31px;
+  text-decoration: underline;
+
+  color: #80C342;
+
+  &:hover{
+    opacity: 70%;
+  }
+}
+
+.slider-case_text__bold{
+  font-weight: 600;
+}
+
+.shared-documents__image{
+  margin-top: 30px;
+  width: 20%;
+  align-self: center;
 }
