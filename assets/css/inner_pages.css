@@ -807,4 +807,29 @@
   align-self: center;
 }
 
+.tools-and-apps-block {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+}
+
+.tools-and-apps-block_left {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 50%;
+  align-items: center;
+}
+
+.first-block__tools-and-apps {
+  height: 100%;
+  justify-content: center;
+}
+
+.tools-and-apps-block_right {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 50%;
+  align-items: center;
+}
+
 /*# sourceMappingURL=inner_pages.css.map */
