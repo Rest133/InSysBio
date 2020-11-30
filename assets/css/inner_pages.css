@@ -476,4 +476,84 @@
   justify-self: center;
 }
 
+.top-poster {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+  padding: 30px;
+  margin-bottom: 60px;
+  background: #862D91 url("/assets/img/2.content/poster-top-bg.svg") no-repeat center;
+  border: 5px solid #95479E;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.posters-and-presentations_list {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.poster_date {
+  margin-top: 90px;
+  margin-bottom: 45px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 40px;
+  color: #000000;
+}
+
+.poster_date__top {
+  margin-top: 0;
+  color: #FFFFFF;
+}
+
+.poster_title {
+  margin-top: 40px;
+  margin-bottom: 50px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 40px;
+  color: #000000;
+}
+
+.poster_title__top {
+  margin-top: 0;
+  color: #FFFFFF;
+}
+
+.poster_text {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 40px;
+  color: #000000;
+}
+
+.poster_text__top {
+  margin-top: 0;
+  color: #FFFFFF;
+}
+
+.poster_link {
+  margin-bottom: 40px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 40px;
+  color: #80C342;
+}
+.poster_link:hover {
+  opacity: 70%;
+}
+
+.poster_link__top {
+  color: #FFFFFF;
+}
+
 /*# sourceMappingURL=inner_pages.css.map */
