@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>InSysBio</title>
-    <link rel="stylesheet" href="assets/css/normalize.css"> <!--Для правильного отображения во всех браузерах-->
+    <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/inner_pages.css">
 </head>
 <body>
 <div class="wrapper">
@@ -68,7 +69,70 @@
             <a href="#" class="header-menu-item_link header-menu-item_link__burger">Case</a>
         </div>
     </header>
-    <div class="content">
+    <div class="content content__inner">
+        <div class="content-blogs">
+            <h2 class="content-title">Blogs</h2>
+            <h3 class="content-subtitle">Featured</h3>
+            <div class="content-blogs_form-container">
+                <div class="content-blogs_form-container-text">
+                    <h3 class="content-subtitle">Get the latest from certara</h3>
+                    <p class="content-text"> Subscribe to receive the latest resources Please find the Certara privacy
+                        policy here. You can unsubscribe, and withdraw your consent, at any time.</p>
+                </div>
+                <form class="contact-form contact-form__blog-page" id="contact-form-blog">
+                    <label for="email" class="form_label-email">Email:</label>
+                    <input type="text" class="form_input-email" id="email">
+                    <button type="submit" class="form_button-submit">
+                        Submit
+                    </button>
+                </form>
+            </div>
+            <div class="content-blog">
+                <h2 class="content-title">Blog</h2>
+                <div class="content-blog_search">
+                    <form class="search-form_blog" id="blog-search">
+                        <div class="search-form_blog-container">
+                            <button class="search-button"><img src="/assets/img/1.header/search-imgl.svg" alt="Search"
+                                                               class="search-button_image"></button>
+                            <input type="text" class="search-input" placeholder="Search insysbio.com">
+                        </div>
+                        <div class="search-form_select-container">
+                            <select class="search-form_select" id="search-form-select">
+                                <option>Topic</option>
+                                <option>Not Topic</option>
+                                <option>Another Not Topic</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+                <div class="content-blog_articles">
+                    <div class="content-blog_articles-list">
+                        <div class="article">
+                            <h3 class="slider-case_title">Exploring the nature of biomarker responses to various dosages
+                                of
+                                an FAAH inhibitor </h3>
+                            <p class="slider-case_text">
+                                To identify the molecular mechanisms underlying the observed dynamics of anandamide and
+                                ethanolamide responses measured in clinical trials of an FAAH inhibitor
+                            </p>
+                            <button class="content_button content_button__slider-button">Learn more</button>
+                        </div>
+
+                        <div class="article">
+                            <h3 class="slider-case_title">Exploring the nature of biomarker responses to various dosages
+                                of an FAAH inhibitor </h3>
+                            <p class="slider-case_text">
+                                To identify the molecular mechanisms underlying the observed dynamics of anandamide and
+                                ethanolamide responses measured in clinical trials of an FAAH inhibitor
+                            </p>
+                            <button class="content_button content_button__slider-button">Learn more</button>
+                        </div>
+                    </div>
+                    <button class="content-blog_articles-button">View more results
+                        <img src="/assets/img/2.content/arrow-bottom.svg" alt="Arrow" class="articles"></button>
+                </div>
+            </div>
+        </div>
     </div>
     <footer class="footer">
         <nav class="footer_nav">
