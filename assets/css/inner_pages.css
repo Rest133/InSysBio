@@ -178,7 +178,7 @@
   display: flex;
   flex-flow: column nowrap;
   width: 45%;
-  height: 100%;
+  height: auto;
   padding: 40px;
   margin: 0 50px 50px 0;
   background: #842C8E url("/assets/img/2.content/case-bg1.svg") center no-repeat;
@@ -220,6 +220,21 @@
     box-sizing: border-box;
     border-radius: 8.3675px;
   }
+}
+
+.article__news {
+  margin: 7% 0;
+  width: 48%;
+  background: #842C8E;
+}
+
+.article_subtitle {
+  margin: 3% 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 40px;
+  color: #FFFFFF;
 }
 
 .content-blog_articles-button {
@@ -345,6 +360,120 @@
 }
 .download-block_link:hover {
   opacity: 70%;
+}
+
+.content_news-and-events {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+}
+
+.content_news-and-events-row {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+}
+
+.content_select-container {
+  display: flex;
+  flex-flow: column nowrap;
+  max-width: 310px;
+  width: 310px;
+  max-height: 55px;
+  margin: 20px 0 0 110px;
+  align-items: center;
+  justify-content: center;
+  background: #80C342;
+  border-radius: 30px;
+}
+
+.content_select {
+  display: flex;
+  background: none;
+  width: 70%;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+.content_select:hover {
+  opacity: 70%;
+}
+.content_select:focus {
+  outline: none;
+}
+.content_select option {
+  background: #80C342;
+}
+
+.news-slide-case__news-page {
+  width: 100%;
+  margin: 0;
+}
+
+.content-blog_articles-list__news {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.news-list {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+}
+
+.news-list_item {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.news-list_item-left {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 60%;
+}
+
+.article_subtitle__news {
+  color: #000000;
+  margin: 0;
+}
+
+.slider-case_title__news {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.slider-case_text__news {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.news-list_item-link {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 40px;
+  color: #80C342;
+}
+.news-list_item-link:hover {
+  opacity: 70%;
+}
+
+.news-list_item-right {
+  display: flex;
+  flex-flow: column;
+  width: 40%;
+}
+
+.news-list_image {
+  object-fit: contain;
+  width: 80%;
+  align-self: center;
+  justify-self: center;
 }
 
 /*# sourceMappingURL=inner_pages.css.map */

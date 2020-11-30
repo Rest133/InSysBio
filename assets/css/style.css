@@ -642,6 +642,7 @@ html, body {
   background: #80C342;
   box-shadow: 10px 10px 30px #CDCDCD;
   border-radius: 30px;
+  text-decoration: none;
 }
 .content_button:focus {
   outline: none;
