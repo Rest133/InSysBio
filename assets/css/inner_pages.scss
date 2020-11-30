@@ -738,7 +738,7 @@
   font-size: 48px;
 }
 
-.research-page_block-with-circles {
+.block-with-circles {
   display: flex;
   flex-flow: column nowrap;
   width: 100%;
@@ -767,6 +767,45 @@
   background-size: auto;
 }
 
-.content-subtitle__small{
+.content-subtitle__small {
   font-size: 36px;
+}
+
+.services-block {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+
+  justify-content: space-between;
+}
+
+.services-block_left{
+  display: flex;
+  flex-flow: column nowrap;
+  width: 45%;
+}
+
+.block-with-circles-row__column {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.animation-title__services {
+  margin-bottom: 66px;
+  line-height: normal;
+}
+
+.image-container__services{
+  margin-left: 0;
+}
+
+.services-block_right{
+  display: flex;
+  flex-flow: column nowrap;
+  width: 45%;
+  margin-top: -60px;
+}
+
+.article__services{
+  width: 80%;
 }
