@@ -556,4 +556,87 @@
   color: #FFFFFF;
 }
 
+.publications_header {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+}
+
+.publications_header-left {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 50%;
+}
+
+.publications_subtitle {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 40px;
+  color: #000000;
+}
+
+.publications_header-right {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 60%;
+  justify-content: space-between;
+}
+
+.publications_header-mini-block {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 45%;
+  min-height: 175px;
+  padding: 20px 20px 15px 40px;
+  background: #842C8E;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+
+.content_button__mini-block-button {
+  margin-top: auto;
+  height: 50px;
+  width: 50%;
+  font-size: 18px;
+  align-self: flex-start;
+  box-shadow: 10px 10px 30px #4A1950;
+}
+
+.publications_list {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+  margin-top: 95px;
+}
+
+.poster_date__publication {
+  margin-top: 0;
+}
+
+.publications_year-list {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+  padding: 40px 100px;
+}
+
+.publications_year-list__top {
+  margin-bottom: 100px;
+  border: 5px solid #862D91;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+
+.publicatoins_list-item {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+}
+
+.publications_row {
+  display: flex;
+}
+
 /*# sourceMappingURL=inner_pages.css.map */
